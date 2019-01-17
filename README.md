@@ -119,11 +119,11 @@ As shown in figure 2, Android Studio adds the cpp group:
 
 Illustrations below but just make sure that the path to your project doesn't contain white space because it could cause problem to build with NDK!
 <p align="center">
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture3.png" width="500" height="450"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture5.png" width="500" height="450"/></a>
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture4.png" width="500" height="450"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture6.png" width="500" height="450"/></a>
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture2.png" width="500" height="450"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture7.png" width="500" height="450"/></a>
 </p>
 
 
@@ -158,11 +158,11 @@ Verify that libnative-lib.so is inside the APK by going to Build -> Analyse APK
 
 
 <p align="center">
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture3.png" width="500" height="450"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture3.png" width="400" height="300"/></a>
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture4.png" width="500" height="450"/></a>
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture2.png" width="500" height="450"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture2.png" width="1000" height="450"/></a>
 </p>
 
 When you click Run run then run app from the menu bar, Android Studio builds and launches an app that displays the text "Hello from C++" on your Android device or emulator. 
