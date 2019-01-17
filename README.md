@@ -240,9 +240,11 @@ git clone https://github.com/google/oboe
 
 cd oboe
 
-git checkout io18codelab
+git checkout io18codelab (Create your own branch)
 ```
 
+During the tutorial it can be useful to refer to the final version of the code which is stored in the master branch.
+Android Studio makes it easy to compare changes across branches.
 
 Type in a command prompt to learn git emplacement: which git
 Enable VCS by making sure git path is well informed in File -> Settings -> Version Control -> Git
@@ -252,6 +254,73 @@ Enable VCS by making sure git path is well informed in File -> Settings -> Versi
 </p>
 
 
+Now you can compare your code with code in the master branch.
+
+Click on the current branch in the bottom right corner
+Go to master->Compare
+
+<p align="center">
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture10.png" width="500" height="450"/></a>
+<br>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture9.png" width="500" height="450"/></a>
+<br>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture8.png" width="500" height="450"/></a>
+</p>
+
+```
+SoundRecording *mClap{nullptr};
+```
+
+```
+mClap = SoundRecording::loadFromAssets(mAssetManager, "CLAP.raw");
+```
+
+```
+AudioStreamBuilder builder;
+    builder.setFormat(AudioFormat::I16);
+    builder.setChannelCount(2);
+    builder.setSampleRate(48000);
+```
+
+```
+class Game : public AudioStreamCallback {
+```
+
+```
+DataCallbackResult
+    onAudioReady(AudioStream *oboeStream, void *audioData, int32_t numFrames) override;
+```
+
+```
+DataCallbackResult Game::onAudioReady(AudioStream *oboeStream, void *audioData, int32_t numFrames) {
+    mClap->renderAudio(static_cast<int16_t *>(audioData), numFrames);
+    return DataCallbackResult::Continue;
+}
+```
+
+```
+builder.setCallback(this);
+```
+
+```
+// Open the stream
+Result result = builder.openStream(&mAudioStream);
+if (result != Result::OK)
+{
+        LOGE("Failed to open stream. Error: %s", convertToText(result));
+}
+
+// Start the stream
+result = mAudioStream->requestStart();
+if (result != Result::OK)
+{
+       LOGE("Failed to start stream. Error: %s", convertToText(result));
+}
+```
+
+```
+mClap->setPlaying(true);
+```
 
 ================================================================================
 <p align="center">
