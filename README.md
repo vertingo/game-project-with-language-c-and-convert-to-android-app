@@ -45,7 +45,9 @@ manage native activities and access physical device components, such as sensors 
 You can install these components using the SDK Manager:
 
 1.From an open project, select Tools > SDK Manager from the menu bar.
+
 2.Click the SDK Tools tab.
+
 3.Check the boxes next to LLDB, CMake, and NDK, as shown in figure 1. 
 
 [Image]
@@ -104,8 +106,6 @@ Make sure to also add the path to the Ninja installation to your PATH environmen
 #Create a new project with C/C++ support
 
 Creating a new project with support for native code is similar to creating any other Android Studio project, but there is an additional step:
-
-
 
 In the Choose your project section of the wizard, select the Native C++ project type.
 Click Next.
@@ -169,17 +169,25 @@ When you click Run run then run app from the menu bar, Android Studio builds and
 The following overview describes the events that occur in order to build and run the sample app:
 
 1.Gradle calls upon your external build script, CMakeLists.txt.
+
 2.CMake follows commands in the build script to compile a C++ source file, native-lib.cpp, into a shared object library and names it libnative-lib.so, which Gradle then packages into the APK.
+
 3.During runtime, the app's MainActivity loads the native library using System.loadLibrary(). The library’s native function, stringFromJNI(), is now available to the app.
+
 4.MainActivity.onCreate() calls stringFromJNI(), which returns "Hello from C++", and uses it to update the TextView.
+
 Note: Instant Run is not compatible with components of your project written in native code.
 
 If you want to verify that Gradle packages the native library in the APK, you can use the APK Analyzer:
 
 1.Select Build > Build Bundles(s) / APK(s) > Build APK(s)
+
 2.Select Build > Analyze APK.
+
 3.Select the APK from the app/build/outputs/apk/ directory and click OK.
+
 4.As shown in figure 3, you can see libnative-lib.so in the APK Analyzer window under lib/<ABI>/. 
+
 Figure 3. Locating a native library using the APK Analyzer.
 
 <p align="center">
