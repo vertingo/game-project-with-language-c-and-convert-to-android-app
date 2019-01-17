@@ -204,7 +204,7 @@ type in a command prompt to learn git emplacement: which git
 Enable VCS by making sure git path is well informed in File -> Settings -> Version Control -> Git
 
 <p align="center">
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture.png" width="400" height="250"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture.png" width="800" height="250"/></a>
 </p>
 
 ================================================================================
