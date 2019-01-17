@@ -105,6 +105,8 @@ Make sure to also add the path to the Ninja installation to your PATH environmen
 
 Creating a new project with support for native code is similar to creating any other Android Studio project, but there is an additional step:
 
+
+
 In the Choose your project section of the wizard, select the Native C++ project type.
 Click Next.
 Complete all other fields in the next section of the wizard.
@@ -114,6 +116,15 @@ Use the drop-down list to select which standardization of C++ you want to use. S
 Click Finish.
 After Android Studio finishes creating your new project, open the Project pane from the left side of the IDE and select the Android view. 
 As shown in figure 2, Android Studio adds the cpp group:
+
+Illustrations below but just make sure that the path to your project doesn't contain white space because it could cause problem to build with NDK!
+<p align="center">
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture5.png" width="500" height="450"/></a>
+<br>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture6.png" width="500" height="450"/></a>
+<br>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture7.png" width="500" height="450"/></a>
+</p>
 
 
 Figure 2. Android view groups for your native sources and external build scripts.
@@ -131,6 +142,29 @@ To learn more about the contents of this build script, read Configure CMake.
 
 #Build and run the sample app
 
+
+Before executing the project we need to build the library libnative-lib.so with command make
+Don't worry these commands are automatically executed when you launch your app but if the 
+path to your project contain white spaces as i mentioned above it could cause problem to executed 
+make commands! Below its just an example of what is executed automatically when you launch the
+app, once again if everything is good for you, your path doesn't contain white spaces make commands
+will be executed properly when you launch your app!  
+
+```
+make --build  path
+```
+
+Verify that libnative-lib.so is inside the APK by going to Build -> Analyse APK
+
+
+<p align="center">
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture3.png" width="500" height="450"/></a>
+<br>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture4.png" width="500" height="450"/></a>
+<br>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture2.png" width="500" height="450"/></a>
+</p>
+
 When you click Run run then run app from the menu bar, Android Studio builds and launches an app that displays the text "Hello from C++" on your Android device or emulator. 
 The following overview describes the events that occur in order to build and run the sample app:
 
@@ -147,6 +181,14 @@ If you want to verify that Gradle packages the native library in the APK, you ca
 3.Select the APK from the app/build/outputs/apk/ directory and click OK.
 4.As shown in figure 3, you can see libnative-lib.so in the APK Analyzer window under lib/<ABI>/. 
 Figure 3. Locating a native library using the APK Analyzer.
+
+<p align="center">
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture3.png" width="500" height="450"/></a>
+<br>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture4.png" width="500" height="450"/></a>
+<br>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture2.png" width="500" height="450"/></a>
+</p>
 
 Tip: If you want to experiment with other Android apps that use native code, click File > New > Import Sample and select a sample project from the Ndk list.
 
@@ -195,17 +237,21 @@ Prerequisites:
 
 ```
 git clone https://github.com/google/oboe 
+
 cd oboe
+
 git checkout io18codelab
 ```
 
 
-type in a command prompt to learn git emplacement: which git
+Type in a command prompt to learn git emplacement: which git
 Enable VCS by making sure git path is well informed in File -> Settings -> Version Control -> Git
 
 <p align="center">
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture.png" width="800" height="250"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture.png" width="500" height="450"/></a>
 </p>
+
+
 
 ================================================================================
 <p align="center">
