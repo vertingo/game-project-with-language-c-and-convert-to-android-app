@@ -177,10 +177,12 @@ The following overview describes the events that occur in order to build and run
 <p align="center">
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture11.png" width="910" height="227"/></a>
 <br>
+<hr>
 We only just have to declare the prototype of the method we want to reuse form our cpp-native-lib:
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture12.png" width="682" height="118"/></a>
 <br>
+<hr>
 And to finish an example of how to use it:
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture13.png" width="1124" height="78"/></a>
@@ -205,9 +207,13 @@ Figure 3. Locating a native library using the APK Analyzer.
 <p align="center">
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture3.png" width="400" height="300"/></a>
 <br>
+<hr>
+<br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture4.png" width="500" height="450"/></a>
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture2.png" width="1000" height="450"/></a>
+<hr>
+<br>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture2.png" width="950" height="250"/></a>
 </p>
 
 Tip: If you want to experiment with other Android apps that use native code, click File > New > Import Sample and select a sample project from the Ndk list.
@@ -282,7 +288,11 @@ Go to master->Compare
 <p align="center">
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture10.png" width="300" height="250"/></a>
 <br>
+<hr>
+<br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture9.png" width="1000" height="450"/></a>
+<br>
+<hr>
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture8.png" width="1000" height="450"/></a>
 </p>
