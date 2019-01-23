@@ -175,15 +175,15 @@ The following overview describes the events that occur in order to build and run
 3.During runtime, the app's MainActivity loads the native library using System.loadLibrary(). The library’s native function, stringFromJNI(), is now available to the app.
 
 <p align="center">
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture11.png" width="450" height="110"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture11.png" width="910" height="227"/></a>
 <br>
 We only just have to declare the prototype of the method we want to reuse form our cpp-native-lib:
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture12.png" width="340" height="60"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture12.png" width="682" height="118"/></a>
 <br>
 And to finish an example of how to use it:
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture13.png" width="600" height="35"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture13.png" width="1124" height="78"/></a>
 </p>
 
 4.MainActivity.onCreate() calls stringFromJNI(), which returns "Hello from C++", and uses it to update the TextView.
