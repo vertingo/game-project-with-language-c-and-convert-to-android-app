@@ -179,11 +179,13 @@ The following overview describes the events that occur in order to build and run
 <br>
 <hr>
 We only just have to declare the prototype of the method we want to reuse form our cpp-native-lib:
+<hr>
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture12.png" width="682" height="118"/></a>
 <br>
 <hr>
 And to finish an example of how to use it:
+<hr>
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture13.png" width="1124" height="78"/></a>
 </p>
