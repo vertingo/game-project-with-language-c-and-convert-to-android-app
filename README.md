@@ -163,20 +163,19 @@ make --build  path
 
 Verify that libnative-lib.so is inside the APK by going to Build -> Analyse APK
 
-
+<hr>
 <p align="center">
-<hr>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture3.png" width="400" height="300"/></a>
-<br>
-<hr>
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture4.png" width="500" height="450"/></a>
-<br>
-<hr>
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture2.png" width="950" height="250"/></a>
-<hr>
 </p>
+<hr>
+<p align="center">
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture4.png" width="500" height="450"/></a>
+</p>
+<hr>
+<p align="center">
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture2.png" width="950" height="250"/></a>
+</p>
+<br>
 
 When you click Run run then run app from the menu bar, Android Studio builds and launches an app that displays the text "Hello from C++" on your Android device or emulator. 
 The following overview describes the events that occur in order to build and run the sample app:
@@ -187,23 +186,23 @@ The following overview describes the events that occur in order to build and run
 
 3.During runtime, the app's MainActivity loads the native library using System.loadLibrary(). The library’s native function, stringFromJNI(), is now available to the app.
 
+<hr>
 <p align="center">
-<hr>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture11.png" width="910" height="227"/></a>
+</p>
 <hr>
-<br>
 We only just have to declare the prototype of the method we want to reuse form our cpp-native-lib:
-<br>
 <hr>
+<p align="center">
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture12.png" width="682" height="118"/></a>
-<br>
+</p>
 <hr>
 And to finish an example of how to use it:
 <hr>
-<br>
+<p align="center">
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture13.png" width="1124" height="78"/></a>
-<hr>
 </p>
+<hr>
 
 4.MainActivity.onCreate() calls stringFromJNI(), which returns "Hello from C++", and uses it to update the TextView.
 
@@ -221,19 +220,19 @@ If you want to verify that Gradle packages the native library in the APK, you ca
 
 Figure 3. Locating a native library using the APK Analyzer.
 
+<hr>
 <p align="center">
-<hr>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture3.png" width="400" height="300"/></a>
-<br>
-<hr>
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture4.png" width="500" height="450"/></a>
-<br>
-<hr>
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture2.png" width="950" height="250"/></a>
-<hr>
 </p>
+<hr>
+<p align="center">
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture4.png" width="500" height="450"/></a>
+</p>
+<hr>
+<p align="center">
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture2.png" width="950" height="250"/></a>
+</p>
+<hr>
 
 Tip: If you want to experiment with other Android apps that use native code, click File > New > Import Sample and select a sample project from the Ndk list.
 
@@ -294,31 +293,30 @@ Android Studio makes it easy to compare changes across branches.
 Type in a command prompt to learn git emplacement: which git
 Enable VCS by making sure git path is well informed in File -> Settings -> Version Control -> Git
 
+<hr>
 <p align="center">
-<hr>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture.png" width="600" height="450"/></a>
-<hr>
 </p>
-
+<hr>
 
 Now you can compare your code with code in the master branch.
 
 Click on the current branch in the bottom right corner
 Go to master->Compare
 
+<hr>
 <p align="center">
-<hr>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture10.png" width="300" height="250"/></a>
-<br>
-<hr>
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture9.png" width="1000" height="450"/></a>
-<br>
-<hr>
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture8.png" width="1000" height="450"/></a>
-<hr>
 </p>
+<hr>
+<p align="center">
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture9.png" width="1000" height="450"/></a>
+</p>
+<hr>
+<p align="center">
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Android_Game_Project_With_LanguageC/master/images/capture8.png" width="1000" height="450"/></a>
+</p>
+<hr>
 
 ```
 SoundRecording *mClap{nullptr};
@@ -375,8 +373,9 @@ if (result != Result::OK)
 mClap->setPlaying(true);
 ```
 
-================================================================================
+<hr>
 <p align="center">
-  <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://platform-media.herokuapp.com/assets/images/reseaux-sociaux/youtube2.png" width="400" height="250"/></a>
-  <a href="https://www.facebook.com/vertingo/"><img src="https://platform-media.herokuapp.com/assets/images/reseaux-sociaux/rejoins_nous.png" width="400" height="250"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://platform-media.herokuapp.com/assets/images/reseaux-sociaux/youtube2.png" width="400" height="150"/></a>
+<a href="https://www.facebook.com/vertingo/"><img src="https://platform-media.herokuapp.com/assets/images/reseaux-sociaux/rejoins_nous.png" width="400" height="150"/></a>
 </p>
+<hr>
